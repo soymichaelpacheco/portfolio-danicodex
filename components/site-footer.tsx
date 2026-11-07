@@ -5,7 +5,7 @@ const socials = [
   ['YouTube', 'https://www.youtube.com/@soymichaelpacheco'],
   ['GitHub', 'https://github.com/soymichaelpacheco'],
   ['Instagram', 'https://www.instagram.com/soymichaelpacheco/'],
-  ['TikTok', 'https://www.tiktok.com/@soymichaeldaniel'],
+  ['TikTok', 'https://www.tiktok.com/@soymichaelpc'],
   ['LinkedIn', 'https://www.linkedin.com/in/soymichaelpacheco/'],
   ['X', 'https://x.com/soymichaelpc'],
   ['Facebook', 'https://www.facebook.com/soymichaelpacheco/'],
