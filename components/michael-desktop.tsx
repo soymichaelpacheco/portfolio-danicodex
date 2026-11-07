@@ -66,13 +66,13 @@ const titles: Record<AppId, string> = {
   recruiter: 'Perfil profesional',
 };
 const socials = [
-  ['YouTube', 'https://www.youtube.com/@soymichaeldaniel'],
-  ['GitHub', 'https://github.com/soymichaeldaniel'],
-  ['Instagram', 'https://www.instagram.com/soymichaeldaniel/'],
+  ['YouTube', 'https://www.youtube.com/@soymichaelpacheco'],
+  ['GitHub', 'https://github.com/soymichaelpacheco'],
+  ['Instagram', 'https://www.instagram.com/soymichaelpacheco/'],
   ['TikTok', 'https://www.tiktok.com/@soymichaeldaniel'],
-  ['LinkedIn', 'https://www.linkedin.com/in/soymichaeldaniel/'],
+  ['LinkedIn', 'https://www.linkedin.com/in/soymichaelpacheco/'],
   ['X', 'https://x.com/soymichaelpc'],
-  ['Facebook', 'https://www.facebook.com/soymichaeldaniel/'],
+  ['Facebook', 'https://www.facebook.com/soymichaelpacheco/'],
 ];
 const paths: { id: CourseCategory; title: string }[] = [
   { id: 'inicio', title: 'Desde cero' },
@@ -300,7 +300,7 @@ export function MichaelDesktop({
   function content(id: AppId) {
     if (id === 'cv') return <div className="os-cv">
       <div className="os-cv-toolbar"><span>Currículum · PDF · 2026</span><a className="os-secondary" href="/Michael-Daniel-CV-2026.pdf" download>Descargar CV</a><LinkOut className="os-secondary" href="/Michael-Daniel-CV-2026.pdf">Abrir PDF</LinkOut></div>
-      <a className="os-cv-viewer" href="/Michael-Daniel-CV-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Abrir el currículum original en PDF (otra pestaña)"><img src="/michael-daniel-cv-preview.png" alt="Vista previa del currículum de Michael Daniel, página 1 de 1. Abre el PDF original para leerlo o descargarlo." /></a>
+      <a className="os-cv-viewer" href="/Michael-Daniel-CV-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Abrir el currículum original en PDF (otra pestaña)"><img src="/michael-daniel-cv-preview.png" alt="Vista previa del currículum de Michael Pacheco, página 1 de 1. Abre el PDF original para leerlo o descargarlo." /></a>
       <p className="os-cv-mobile-note">Página 1 de 1 · Haz clic en el documento para abrir el PDF original.</p>
     </div>;
     if (id === 'welcome')
@@ -313,7 +313,7 @@ export function MichaelDesktop({
             <h2 className="os-welcome-heading">
               Hola, soy
               <br />
-              <em>Michael Daniel.</em>
+              <em>Michael Pacheco.</em>
             </h2>
             <p className="os-lede">
               Desarrollador, creador de contenido y una persona que nunca deja
@@ -339,7 +339,7 @@ export function MichaelDesktop({
           <div className="os-portrait-wrap">
             <Photo
               src="/michael-daniel.png"
-              alt="Retrato de Michael Daniel"
+              alt="Retrato de Michael Pacheco"
               className="os-portrait"
             />
             <div className="os-portrait-label">
@@ -399,7 +399,7 @@ export function MichaelDesktop({
       return (
         <div className="os-explorer">
           <div className="os-breadcrumb">
-            <Folder size={16} /> Michael Daniel <ChevronRight size={14} />{' '}
+            <Folder size={16} /> Michael Pacheco <ChevronRight size={14} />{' '}
             Proyectos
           </div>
           {selected ? (
@@ -656,14 +656,14 @@ export function MichaelDesktop({
         }
       }}
     >
-      <h1 className="sr-only">Michael Daniel — Mi escritorio personal</h1>
+      <h1 className="sr-only">Michael Pacheco — Mi escritorio personal</h1>
       <header className="os-topbar">
         <a href="/" className="os-wordmark">
           <img className="os-brand-logo" src="/michael-daniel.png" alt="" /> michael<span>OS</span>
           <small>v.01</small>
         </a>
         <span className="os-topbar-center">
-          El escritorio de Michael Daniel
+          El escritorio de Michael Pacheco
         </span>
         <button
           id="launcher-recruiter"
@@ -683,7 +683,7 @@ export function MichaelDesktop({
         <div className="os-mobile-intro">
           <p className="os-kicker">Mi espacio personal</p>
           <h2 className="os-mobile-heading">
-            Michael Daniel<span>.</span>
+            Michael Pacheco<span>.</span>
           </h2>
           <p>Código, ideas y cosas por descubrir.</p>
           <button id="launcher-welcome" onClick={() => open('welcome')}>
@@ -838,7 +838,7 @@ export function MichaelDesktop({
                   <i className="os-dot" />{' '}
                   {w.id === 'welcome'
                     ? 'Qué bueno que estés aquí.'
-                    : 'Michael Daniel / Espacio personal'}
+                    : 'Michael Pacheco / Espacio personal'}
                 </span>
                 <span>michaelOS</span>
               </div>
@@ -860,7 +860,7 @@ export function MichaelDesktop({
               alt=""
             />
             <span>
-              Michael Daniel<small>Tu próximo clic, una nueva idea.</small>
+              Michael Pacheco<small>Tu próximo clic, una nueva idea.</small>
             </span>
           </div>
           <button onClick={() => open('welcome')}>

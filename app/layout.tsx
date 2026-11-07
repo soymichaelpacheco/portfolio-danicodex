@@ -9,7 +9,7 @@ const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin']
 export const metadata: Metadata = {
   metadataBase: new URL('https://michaeldanielos.vercel.app'),
   title: 'Michael OS',
-  description: 'Explora el escritorio de Michael Daniel: proyectos, cursos gratuitos, tecnología e ideas. Desarrollador frontend y creador de contenido.',
+  description: 'Explora el escritorio de Michael Pacheco: proyectos, cursos gratuitos, tecnología e ideas. Desarrollador frontend y creador de contenido.',
   icons: { icon: '/michael-daniel-logo-transparent.png', apple: '/michael-daniel-logo-transparent.png' },
   openGraph: {
     title: 'Michael OS',
